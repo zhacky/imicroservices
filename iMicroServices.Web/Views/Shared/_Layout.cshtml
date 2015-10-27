@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - IMicroServices</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+
+            <div class="body-content">
+                <div class="container">
+
+                    <div class="logo-area pull-left">
+                        <a href="@Url.Content("~/")">
+                        <img src="~/Content/images/logo.png" />
+                        </a>
+                    </div>
+                    <div class="address pull-right">
+                        <img src="~/Content/Images/icons/icon-phone.png" />
+                        <span class="tel"><span>+1 604</span>568 0039</span>
+                        <p>202-2469 Kingsway, Vancouver BC, V5R 5G8</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                @Html.Partial("_LogoPartial")
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>@*&copy; @DateTime.Now.Year - IMicroServices*@</p>
+                    @Html.Partial("_FooterPartial")
+                </footer>
+            </div>
+        </div>
+
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

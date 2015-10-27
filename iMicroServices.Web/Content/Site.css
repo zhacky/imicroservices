@@ -1,0 +1,147 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #EFEEEE;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*
+----------------------------------------------- Home -----------------------------------------------
+*/
+.navbar {
+    background: #4E4848;
+     border-radius: 4px 4px 0px 0px !important;
+    -webkit-border-radius: 4px 4px 0px 0px !important;
+    -moz-border-radius: 4px 4px 0px 0px !important;
+}
+/* 
+    login area 
+*/
+.login-form {
+    text-align: right;
+    padding: 5px;
+}
+.login-form input#username,.login-form input#password {
+    margin: 5px;
+    width: 206px;
+}
+.login-form input.btn {
+    width: 80px;
+}
+.login-form a.join-link {
+    color: #FB5A02 !important;
+    color: inherit;
+    margin-left: 400px;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+/* 
+    content area
+*/
+
+.jumbotron {
+    border-radius: 0px 0px 6px 6px !important;
+    -webkit-border-radius: 0px 0px 6px 6px !important;
+    -moz-border-radius: 0px 0px 6px 6px !important;
+}
+.main {
+    box-shadow: 0px 0px 5px #CDCDCD;
+    -webkit-box-shadow: 0px 1px 5px #CDCDCD;
+    -moz-box-shadow: 0px 0px 5px #CDCDCD;
+        background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(245,245,245,1) 100%);
+}
+.address img{
+    margin-right: 10px;
+}
+ .address span.tel {
+	margin-bottom: 0;
+	font-size: 28px;
+}
+.address span.tel span {
+	margin-right: 10px;
+	color: #FB5A02;
+}
+
+
+
+/*
+----------------------------------------------- Footer -----------------------------------------------
+*/
+.row.footer {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.row.footer > div {
+	background-color: #4E4848;
+	color: #E2E2E2;
+	
+	padding: 20px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+.row.footer hr {
+	margin: 10px 0;
+	border-top: 0px;
+	border-bottom: 1px solid #999;
+}
+.row.footer p {
+	margin: 0;
+}
+
+.row.footer p.copyright,
+.row.footer p.design {
+	font-size: 12px;
+}
+
+.row.footer .info {
+	display: inline-block;
+	clear: both;
+}
+.row.footer .info p {
+	display: inline;
+	float: left;
+	margin-right: 40px;
+	height: 28px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+.row.footer .info p.address {
+	background-image: url('Images/icons/icon-home.png');
+	background-repeat: no-repeat;
+}
+.row.footer .info p.number {
+	background-image: url('Images/icons/icon-phone-alt.png');
+	background-repeat: no-repeat;
+}
+.row.footer .info p.email {
+	background-image: url('Images/icons/icon-mail.png');
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,14 @@
+﻿.carousel {
+    font-family: 'Ubuntu' !important;
+}
+
+.carousel-inner img {
+    width: 1170px !important;
+}
+.carousel-caption > h1, .carousel-caption > p {
+    width: 400px;
+    text-align: left;
+    margin-left: -200px;
+    padding-left: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}

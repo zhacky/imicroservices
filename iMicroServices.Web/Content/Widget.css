@@ -1,0 +1,110 @@
+﻿
+/* @Top Box
+Section head start from here
+======================================== */
+.row.topbox {
+    margin-top: 20px;
+}
+.row.topbox > div {
+	padding-top: 20px;
+}
+.row.topbox .modules {
+	display: inline-block;
+	float: left;
+	width: 340px;
+	margin-right: 20px;
+	padding: 20px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	background-repeat: no-repeat;
+	padding-top: 82px;
+}
+.row.topbox .modules:last-child {
+	margin-right: 0px;
+}
+.row.topbox .modules .mod-title {
+	font-size: 25px;
+	line-height: 1;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.row.topbox .modules .mod-content {
+	color: #666;
+}
+
+
+.row.topbox .modules.about {
+	background-image: url('Images/icons/icon1.png');
+	background-position: 20px 0;
+}
+.row.topbox .modules.services {
+	background-image: url('Images/icons/icon2.png');
+	background-position: 20px 0;
+}
+.row.topbox .modules.news {
+	background-image: url('Images/icons/icon3.png');
+	background-position: 20px 0;
+}
+
+.row.topbox .modules .readmore {
+	line-height: 1;
+	background-color: #E8E8E8;
+	color: #666;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+.row.topbox .modules .readmore:hover {
+	background-color: #FB5A02;
+	color: #FFF;
+}
+
+/* @Bottom Box
+Section head start from here
+======================================== */
+.row.bottombox {
+	
+}
+.row.bottombox > div {
+	background-color: #FBFBFB;
+}
+.row.bottombox .modules {
+	display: inline-block;
+	float: left;
+	width: 340px;
+	margin-right: 20px;
+	padding: 20px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	background-repeat: no-repeat;
+}
+.row.bottombox .modules:last-child {
+	margin-right: 0px;
+}
+.row.bottombox .modules .mod-title {
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.row.bottombox .modules .mod-content {
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
